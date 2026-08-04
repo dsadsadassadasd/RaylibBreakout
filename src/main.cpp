@@ -360,6 +360,7 @@ int main() {
                     game.ball.y = GetScreenHeight() - 60;
                     game.ball.speedX = 6;
                     game.ball.speedY = 6; 
+                    game.ballSpeed = 6; // Reset ball speed to initial value
                     game.paddle.Reset();
                     game.level = 1;
                     game.winSoundPlayed = false;
