@@ -42,9 +42,9 @@ public:
     for (int r = 0; r < rows; r++) {
         for (int c = 0; c < cols; c++) {
             Bricks brick;
-            brick.position = {startX + c * (brickWidth + spacing), 60 + r * (brickHeight + spacing)};
+            brick.position = {floor(startX + c * (brickWidth + spacing)), floor(60 + r * (brickHeight + spacing))};
 
-            brick.rect = {brick.position.x, brick.position.y, brickWidth, brickHeight};
+            brick.rect = {brick.position.x, brick.position.y, 65, 30};
             brick.active = true;
 
             if (!brickTextures.empty()) {

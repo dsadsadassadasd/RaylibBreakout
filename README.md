@@ -7,7 +7,7 @@ My attempt to make a breakout game similar to Google's breakout game.
 
 - The paddle, ball, and bricks are all textured and colored by me in Piskel
 - SFX were found in audio libraries such as Kenney
-- Score and LiFe systems
+- Score and Life systems
 - Endless levels with increasing difficulty
 - Decent brick collision detection
 - You can play the game over and over
